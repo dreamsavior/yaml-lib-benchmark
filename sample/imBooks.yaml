@@ -1,0 +1,125 @@
+---
+- 
+- !ruby/object:RPG::ItemMake::Book
+  id: 1
+  name: すべて
+  icon_index: 230
+  list:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  display_price: false
+  plus_number: 7
+  minus_number: 7
+  fixed_display: true
+  plus_name: 
+  minus_name: 
+  background_name: 
+  foreground_name: 
+  visible_window: true
+  visible_secret: true
+  specify_quantity: false
+  make_se: !ruby/object:RPG::SE {name: ワンポイント, pitch: 100, volume: 80}
+- !ruby/object:RPG::ItemMake::Book
+  id: 2
+  name: 調　合
+  icon_index: 279
+  list:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  display_price: false
+  plus_number: 2
+  minus_number: 2
+  fixed_display: true
+  plus_name: 
+  minus_name: 
+  background_name: 
+  foreground_name: 
+  visible_window: true
+  visible_secret: false
+  specify_quantity: false
+  make_se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 100}
+- !ruby/object:RPG::ItemMake::Book
+  id: 3
+  name: 鍛冶屋
+  icon_index: 284
+  list:
+  - 6
+  - 7
+  - 8
+  - 2
+  display_price: true
+  plus_number: 6
+  minus_number: 6
+  fixed_display: true
+  plus_name: 
+  minus_name: 
+  background_name: 
+  foreground_name: 
+  visible_window: true
+  visible_secret: true
+  specify_quantity: true
+  make_se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 100}
+- !ruby/object:RPG::ItemMake::Book
+  id: 4
+  name: 交　換
+  icon_index: 495
+  list:
+  - 9
+  - 10
+  - 11
+  - 12
+  display_price: false
+  plus_number: 6
+  minus_number: 1
+  fixed_display: true
+  plus_name: 受け取るアイテム
+  minus_name: 渡すアイテム
+  background_name: ''
+  foreground_name: ''
+  visible_window: true
+  visible_secret: true
+  specify_quantity: false
+  make_se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 100}
+- !ruby/object:RPG::ItemMake::Book
+  id: 5
+  name: セット
+  icon_index: 270
+  list:
+  - 13
+  - 14
+  display_price: true
+  plus_number: 5
+  minus_number: 0
+  fixed_display: true
+  plus_name: セット内容
+  minus_name: ''
+  background_name: 
+  foreground_name: 
+  visible_window: true
+  visible_secret: true
+  specify_quantity: false
+  make_se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}

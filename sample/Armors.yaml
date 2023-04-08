@@ -1,0 +1,4012 @@
+---
+- 
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：MPリジェネ+5%\r\n防：\\c[3]+5\\c[0]"
+  name: 形見のコア
+  icon_index: 1257
+  price: 50
+  note: <個数非表示><図鑑特徴:初期>
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+3\\c[0]"
+  name: うさぽよコア
+  icon_index: 1257
+  price: 50
+  note: "<図鑑特徴:うさぽよからドロップ>\r\n"
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+3\\c[0] 魔攻：\\c[3]+8\\c[0]"
+  name: もこんコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:もこんからドロップ>
+  id: 3
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 3
+  - 8
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：毒耐性+10%\r\n攻：\\c[3]+8\\c[0] 防：\\c[3]+3\\c[0]"
+  name: ブンブンコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:ブンブンからドロップ>
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 8
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+10\\c[0]"
+  name: モルフィルコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:モルフィルからドロップ>
+  id: 5
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+5\\c[0] 敏：\\c[3]+7\\c[0]"
+  name: パリピヨコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:パリピヨからドロップ>
+  id: 6
+  features: []
+  params:
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 7
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：スタン耐性+10%\r\n魔防：\\c[3]+12\\c[0]"
+  name: ツボガメコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:ツボガメからドロップ>
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：防御効果300%\r\n防：\\c[3]+12\\c[0]"
+  name: クリッターコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:クリッターからドロップ>
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+8\\c[0] 魔防：\\c[3]+8\\c[0]"
+  name: ウミウシコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:ウミウシからドロップ>
+  id: 9
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 8
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+15\\c[0] 魔防：\\c[2]-3\\c[0]"
+  name: ヒポドンコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:ヒポドンからドロップ>
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 17
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - -3
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n敏：\\c[3]+12\\c[0]"
+  name: エグルコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:エグルからドロップ>
+  id: 11
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+2%\\c[0] 防：\\c[3]+5\\c[0] "
+  name: うさぽよコア(緑)
+  icon_index: 1275
+  price: 50
+  note: "<図鑑特徴:緑うさぽよからドロップ>\r\n"
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：暗闇耐性+10%\r\n敏：\\c[3]+10\\c[0]"
+  name: バットコア
+  icon_index: 1259
+  price: 50
+  note: <図鑑特徴:バットからドロップ>
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+3%\\c[0] 防：\\c[3]+5\\c[0]"
+  name: うさぽよコア(赤)
+  icon_index: 1261
+  price: 50
+  note: "<図鑑特徴:赤うさぽよからドロップ>\r\n"
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：毒耐性+15%\r\n防：\\c[2]-3%\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: アルラウネコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:アルラウネからドロップ>
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - -3
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：攻撃低下耐性+15%\r\nHP：\\c[3]+1%\\c[0] 防：\\c[3]+5\\c[0]"
+  name: マスクダケコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:マスクダケからドロップ>
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 40
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.01
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+10\\c[0] 敏：\\c[3]+8\\c[0]"
+  name: ピークコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:アソーピークからドロップ>
+  id: 17
+  features: []
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+12\\c[0] 防：\\c[2]-5\\c[0]"
+  name: イタチコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:クロイタチからドロップ>
+  id: 18
+  features: []
+  params:
+  - 0
+  - 0
+  - 12
+  - -5
+  - 0
+  - 0
+  - 8
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：土耐性+20%\r\nHP：\\c[3]+2%\\c[0] 攻：\\c[3]+8\\c[0]"
+  name: オークコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:ミノオークからドロップ>
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：水耐性+20% 回避率+5%\r\n"
+  name: サハギンコア
+  icon_index: 1278
+  price: 50
+  note: <図鑑特徴:サハギンからドロップ>
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：毒耐性+15%　猛毒耐性+15%\r\nHP：\\c[3]+0.5%\\c[0] 防：\\c[3]+10\\c[0]"
+  name: バジリスクコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:バジリスクからドロップ>
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.005
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：炎耐性+10%\r\n防：\\c[3]+5\\c[0] 魔攻：\\c[3]+12\\c[0]"
+  name: もこもこコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:もこもこんからドロップ>
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 12
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：睡眠耐性+20%\r\n防：\\c[3]+8\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: ララアウルコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:ララアウルからドロップ>
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：防御低下耐性+15%　回避率+3%\r\n防：\\c[3]+10\\c[0] 敏：\\c[3]+12\\c[0]"
+  name: グラキリスコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:グラキリスからドロップ>
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 41
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 12
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：獲得金二倍\r\nHP：\\c[3]+5%\\c[0] 防：\\c[3]+5\\c[0]"
+  name: うさぽよコア(金)
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:金うさぽよからドロップ>
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：闇耐性+10%\r\n魔攻：\\c[3]+14\\c[0]"
+  name: シャドウコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:シャドウからドロップ>
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 14
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：霊耐性+15%\r\n魔防：\\c[3]+10\\c[0]"
+  name: ゴーストコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:ゴーストからドロップ>
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 15
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ゾンビ耐性+10%\r\nHP：\\c[3]+6%\\c[0] 防：\\c[3]+8\\c[0]"
+  name: ゴブリンコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:ゴブリンからドロップ>
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 35
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.06
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：風耐性+20%\r\n攻：\\c[3]+10\\c[0] 防：\\c[2]-5\\c[0] 敏：\\c[3]+14\\c[0]"
+  name: コルボーコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:コルボーからドロップ>
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.2
+  params:
+  - 0
+  - 0
+  - 10
+  - -5
+  - 0
+  - 0
+  - 14
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+5%\\c[0] 攻：\\c[3]+8\\c[0] 防：\\c[3]+8\\c[0]"
+  name: マミーコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:マミーからドロップ>
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 8
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+10\\c[0] 防：\\c[2]-5\\c[0] 敏：\\c[3]+15\\c[0]"
+  name: レイスコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:レイスからドロップ>
+  id: 31
+  features: []
+  params:
+  - 0
+  - 0
+  - 10
+  - -5
+  - 0
+  - 0
+  - 15
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：魔毒耐性+10%\r\nHP：\\c[2]-5%\\c[0] 防：\\c[3]+15\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: ガーゴイルコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:ガーゴイルからドロップ>
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 27
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：魔防低下耐性+10%\r\n攻：\\c[3]+5\\c[0] 魔防：\\c[3]+12\\c[0]"
+  name: オロルーコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:オロルーからドロップ>
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 43
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：氷耐性+10%\r\n魔防：\\c[3]+10\\c[0]"
+  name: グラースコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:グラースからドロップ>
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：雷耐性+10%\r\n魔防：\\c[3]+10\\c[0]"
+  name: トネールコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:トネールからドロップ>
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[2]-8\\c[0] 魔攻：\\c[3]+18\\c[0]"
+  name: クアールコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:クアールからドロップ>
+  id: 36
+  features: []
+  params:
+  - 0
+  - 0
+  - -8
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+2%\\c[0] 防：\\c[3]+15\\c[0] 魔防：\\c[2]-15\\c[0] 敏：\\c[3]+5\\c[0]"
+  name: メルキュコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:メルキュールからドロップ>
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - -15
+  - 5
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+12\\c[0] 防：\\c[3]+12\\c[0] 敏：\\c[2]-12\\c[0]"
+  name: リザードコア
+  icon_index: 1278
+  price: 50
+  note: <図鑑特徴:リザードからドロップ>
+  id: 38
+  features: []
+  params:
+  - 0
+  - 0
+  - 12
+  - 12
+  - 0
+  - 0
+  - -12
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[2]-5%\\c[0] 攻：\\c[3]+15\\c[0] 魔攻：\\c[3]+15\\c[0]"
+  name: クマエルコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:クマエルからドロップ>
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.95
+  params:
+  - 0
+  - 0
+  - 15
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：TP持ち越し\r\n防：\\c[3]+12\\c[0]"
+  name: ポーマコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:ポーマからドロップ>
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：忘却耐性+10%\r\nHP：\\c[3]+0.5%\\c[0] 攻：\\c[3]+12\\c[0] 防：\\c[3]+8\\c[0] 敏：\\c[3]+5\\c[0]"
+  name: グライフコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:グライフからドロップ>
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.005
+  params:
+  - 0
+  - 0
+  - 12
+  - 8
+  - 0
+  - 0
+  - 5
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：火傷耐性+10%\r\nHP：\\c[3]+1%\\c[0] 攻：\\c[3]+12\\c[0] 防：\\c[3]+12\\c[0] 魔攻：\\c[3]+12\\c[0] 魔防：\\c[3]+12\\c[0] 敏：\\c[2]-5\\c[0]"
+  name: キマイラコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.01
+  params:
+  - 0
+  - 0
+  - 12
+  - 12
+  - 12
+  - 12
+  - -5
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：無気力耐性+10%　回避+8%　魔法回避+8%\r\n防：\\c[2]-15\\c[0]"
+  name: アオリコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:アオリイカからドロップ>
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 31
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - -15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：爆発耐性+50%\r\n防：\\c[3]+12\\c[0] 魔防：\\c[3]+8\\c[0]"
+  name: ヒポキンコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:ヒポキンからドロップ>
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 17
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 8
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：HPリジェネ+5%\r\n魔攻：\\c[3]+10\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: ポミエコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:ポミエちゃんからドロップ>
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：猛毒耐性+15%\r\nHP：\\c[3]+3%\\c[0] 防：\\c[3]+15\\c[0]"
+  name: バグルームコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:バグルームからドロップ>
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：防御低下耐性+10%\r\n攻：\\c[3]+12\\c[0] 防：\\c[3]+14\\c[0] 敏：\\c[3]+12\\c[0]"
+  name: ハーピーコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:ハーピーからドロップ>
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 41
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 12
+  - 14
+  - 0
+  - 0
+  - 12
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：毒耐性+10%\r\n防：\\c[3]+12\\c[0] 魔防：\\c[3]+5\\c[0]"
+  name: ヘビマルコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:ヘビマルからドロップ>
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 71
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：物理耐性+10%\r\nHP：\\c[3]+0.8%\\c[0] 防：\\c[3]+14\\c[0] 敏：\\c[2]-10\\c[0]"
+  name: どろぽよコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:どろぽよからドロップ>
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.008
+  params:
+  - 0
+  - 0
+  - 0
+  - 14
+  - 0
+  - 0
+  - -10
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：炎氷雷耐性+10%\r\nHP：\\c[3]+3%\\c[0] 防：\\c[3]+5\\c[0] "
+  name: たわーコア
+  icon_index: 1289
+  price: 50
+  note: <図鑑特徴:うさぽよたわーから盗む>
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.03
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：回避+10%　魔法回避+10%\r\n防：\\c[2]-15\\c[0] 防：\\c[2]-15\\c[0]"
+  name: シュクルコア
+  icon_index: 1278
+  price: 50
+  note: <図鑑特徴:シュクルからドロップ>
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - -15
+  - 0
+  - -15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：炎氷雷耐性+10% 獲得金二倍 物理耐性+10%\r\nHP：\\c[3]+30%\\c[0] 攻：\\c[3]+15\\c[0] 防：\\c[3]+15\\c[0]  魔攻：\\c[3]+15\\c[0] 魔防：\\c[3]+15\\c[0]  敏：\\c[3]+15\\c[0]"
+  name: うさぽよ∞コア
+  icon_index: 1289
+  price: 2000
+  note: <図鑑特徴:錬金>
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 1
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 15
+  - 15
+  - 15
+  - 15
+  - 15
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：毒無効　猛毒無効\r\nHP：\\c[3]+5%\\c[0] 防：\\c[3]+15\\c[0]"
+  name: 耐毒コア
+  icon_index: 1259
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：麻痺無効\r\n防：\\c[3]+10\\c[0] 敏：\\c[3]+10\\c[0]"
+  name: 耐麻痺コア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 7
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：睡眠無効\r\n魔防：\\c[3]+12\\c[0]"
+  name: 耐眠コア
+  icon_index: 1274
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 6
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：獲得金二倍\r\nHP：\\c[3]+5%\\c[0] 防：\\c[3]+15\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: ゴールドコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：戦闘中常に呪い状態\r\nHP：\\c[3]+50%\\c[0] 攻：\\c[2]-20\\c[0] 魔攻：\\c[3]+20\\c[0]"
+  name: フルーフコア
+  icon_index: 1262
+  price: 50
+  note: "<図鑑特徴:錬金>\r\n<オートステート 34>"
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - -20
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：炎耐性+10%\r\n防：\\c[3]+10\\c[0] 魔攻：\\c[3]+20\\c[0]"
+  name: キツネコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：忘却耐性+10%\r\n敏：\\c[3]+18\\c[0] 魔防：\\c[3]+18\\c[0]"
+  name: はにわコア
+  icon_index: 1276
+  price: 50
+  note: <図鑑特徴:はにわボクサーからドロップ>
+  id: 61
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 18
+  - 18
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：麻痺耐性+10% 火傷耐性+10%\r\n攻：\\c[3]+10\\c[0] 防：\\c[3]+10\\c[0] 魔攻：\\c[3]+10\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: ラパンコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:ナル･ラ･パンからドロップ>
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 29
+    value: 0.9
+  params:
+  - 0
+  - 0
+  - 10
+  - 10
+  - 10
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：忘却耐性+10%\r\nHP：\\c[3]+2%\\c[0] 攻：\\c[3]+20\\c[0] 防：\\c[3]+12\\c[0] 敏：\\c[2]-10\\c[0]"
+  name: メイデンコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:キャッセメイデンからドロップ>
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.02
+  params:
+  - 0
+  - 0
+  - 20
+  - 12
+  - 0
+  - 0
+  - -10
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[2]-12\\c[0] 魔攻：\\c[3]+20\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: ブックコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:彷徨う魔導書からドロップ>
+  id: 64
+  features: []
+  params:
+  - 0
+  - 0
+  - -12
+  - 0
+  - 20
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：弱点・炎-100%\r\n防：\\c[3]+25\\c[0] 魔防：\\c[2]-10\\c[0] 敏：\\c[3]+5\\c[0]"
+  name: ミルパッドコア
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 25
+  - 0
+  - -10
+  - 5
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+5%\\c[0] 攻：\\c[3]+8\\c[0] 防：\\c[3]+8\\c[0]  魔攻：\\c[3]+8\\c[0] 魔防：\\c[3]+8\\c[0]  敏：\\c[3]+8\\c[0]"
+  name: うさぽよコア(黒)
+  icon_index: 1262
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：MPリジェネ+5%\r\n攻：\\c[2]-15\\c[0] 魔攻：\\c[3]+25\\c[0]"
+  name: ジャックコア
+  icon_index: 1273
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - -15
+  - 0
+  - 25
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：回復効果率2倍\r\n魔攻：\\c[3]+10\\c[0]"
+  name: エールコア
+  icon_index: 1263
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nMP：\\c[2]-15\\c[0] 攻：\\c[3]+25\\c[0] 魔攻：\\c[2]-10\\c[0] "
+  name: サイクロプスコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 74
+  features: []
+  params:
+  - 0
+  - -15
+  - 25
+  - 0
+  - -10
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ガード率+200%\r\n攻：\\c[2]-8\\c[0] 防：\\c[3]+18\\c[0] 魔攻：\\c[2]-8\\c[0] 魔防：\\c[3]+18\\c[0]"
+  name: パギュールコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - -8
+  - 18
+  - -8
+  - 18
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nMP：\\c[2]-20\\c[0] 防：\\c[3]+30\\c[0] 敏：\\c[2]-10\\c[0]"
+  name: ガンドラコア
+  icon_index: 1277
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 76
+  features: []
+  params:
+  - 0
+  - -20
+  - 0
+  - 30
+  - 0
+  - 0
+  - -10
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：最大HP+15%\r\nMP：\\c[2]-5\\c[0]"
+  name: キングうさコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.15
+  params:
+  - 0
+  - -5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: 【固有効果】：戦闘中常に呪い状態
+  name: 呪いのお面
+  icon_index: 1747
+  price: 0
+  note: "<オートステート 34>\r\n<個数非表示>\r\n<図鑑特徴:グルンタール：領主の家・倉庫>"
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ドロップ率+100％\r\n運：\\c[3]+100\\c[0]"
+  name: ペルニャのお守り
+  icon_index: 638
+  price: 50
+  note: "<ドロップ率+100%>\r\n<図鑑特徴:錬金>"
+  id: 85
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 100
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：命中率+100%\r\n敏：\\c[3]+10\\c[0]"
+  name: レッドグラス
+  icon_index: 588
+  price: 50
+  note: <図鑑特徴:ディアーブル洞窟・穴>
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+5\\c[0]"
+  name: ボロい布切れ
+  icon_index: 183
+  price: 100
+  note: <図鑑特徴:購入>
+  id: 87
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+8\\c[0]"
+  name: ナベの蓋
+  icon_index: 502
+  price: 200
+  note: "<図鑑特徴:購入>\r\n<図鑑特徴:錬金>"
+  id: 88
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+12\\c[0] 魔攻：\\c[3]+10\\c[0]"
+  name: ガラスのブローチ
+  icon_index: 176
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 89
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+10\\c[0] 防：\\c[3]+12\\c[0]"
+  name: ガラスのネックレス
+  icon_index: 180
+  price: 50
+  note: "<図鑑特徴:シャーリィ初期>\r\n<図鑑特徴:錬金>"
+  id: 90
+  features: []
+  params:
+  - 0
+  - 0
+  - 10
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+18\\c[0] 魔攻：\\c[3]+12\\c[0]"
+  name: ブロンズカチューシャ
+  icon_index: 464
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 91
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 12
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+22\\c[0]"
+  name: アイアンバングル
+  icon_index: 177
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 92
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+15\\c[0] 魔攻：\\c[3]+15\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: パールイヤリング
+  icon_index: 515
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 93
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 15
+  - 10
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ガード率+100%\r\nHP：\\c[2]-50\\c[0] 防：\\c[3]+20\\c[0] 魔防：\\c[3]+20\\c[0] 敏：\\c[2]-10\\c[0]"
+  name: 鋼鉄の盾
+  icon_index: 506
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 94
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - -50
+  - 0
+  - 0
+  - 20
+  - 0
+  - 20
+  - -10
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+18\\c[0] 防：\\c[3]+15\\c[0]"
+  name: ゴールドリング
+  icon_index: 1777
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 95
+  features: []
+  params:
+  - 0
+  - 0
+  - 18
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[2]-5\\c[0] 防：\\c[3]+12\\c[0] 魔攻：\\c[3]+15\\c[0] 魔防：\\c[3]+20\\c[0]"
+  name: もこんの手袋
+  icon_index: 483
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 96
+  features: []
+  params:
+  - 0
+  - 0
+  - -5
+  - 12
+  - 15
+  - 20
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：防御力+10%\r\n防：\\c[3]+10%\\c[0] 魔攻：\\c[3]+25\\c[0] 魔防：\\c[3]+20\\c[0]"
+  name: 古びた魔導書
+  icon_index: 1592
+  price: 100
+  note: <図鑑特徴:エシリア・図鑑報酬>
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 25
+  - 20
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ガード率300%\r\n防：\\c[3]+25\\c[0] 魔防：\\c[3]+25\\c[0] 敏：\\c[2]-20\\c[0]"
+  name: クリッターの盾
+  icon_index: 1703
+  price: 50
+  note: <図鑑特徴:クリッターからドロップ>
+  id: 98
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 25
+  - 0
+  - 25
+  - -20
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：霊耐性+25% 闇耐性+25%\r\n防：\\c[3]+12\\c[0] 魔防：\\c[3]+16\\c[0]"
+  name: 霊視のネックレス
+  icon_index: 524
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 99
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 15
+    value: 1.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.85
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 16
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：低下耐性+50%\r\n防：\\c[3]+18\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: ノーブルリボン
+  icon_index: 182
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 40
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 41
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 42
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 43
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 44
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：回避率+8%\r\n防：\\c[3]+18\\c[0] 敏：\\c[3]+15\\c[0]"
+  name: フェザーブーツ
+  icon_index: 474
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 101
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 15
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：魔法回避率+15%\r\n防：\\c[3]+20\\c[0]"
+  name: ネーベル帽
+  icon_index: 1738
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 102
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+5\\c[0] 魔防：\\c[3]+30\\c[0]"
+  name: 金の鏡
+  icon_index: 282
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 103
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 30
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：敏捷性-50%\r\n防：\\c[3]+30\\c[0]"
+  name: プレートアーマー
+  icon_index: 170
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 104
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：リジェネ+5%\r\n防：\\c[3]+20\\c[0] 魔防：\\c[3]+20\\c[0]"
+  name: 魔法の羽衣
+  icon_index: 448
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 105
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 20
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 106
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 107
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：攻撃時攻撃低下付与+15%\r\n防：\\c[3]+20\\c[0] 魔攻：\\c[3]+20\\c[0]　\\c[4]リノン専用\\c[0]"
+  name: リボンカチューシャ
+  icon_index: 579
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 108
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 40
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：命中+150% 魔法回避率+15%\r\n防：\\c[3]+20\\c[0] 魔防：\\c[3]+25\\c[0]　\\c[4]シャーリィ専用\\c[0]"
+  name: クロノネックレス
+  icon_index: 580
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 109
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 19
+    value: 0.15
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 25
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：忘却耐性+50%\r\n攻：\\c[3]+20\\c[0] 防：\\c[3]+20\\c[0] 魔防：\\c[3]+10\\c[0]　\\c[4]ルフィア専用\\c[0]"
+  name: ローゼの花飾り
+  icon_index: 519
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 110
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 20
+  - 20
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：TPチャージ率+50%\r\nHP：\\c[3]+100\\c[0] 防：\\c[3]+20\\c[0]　\\c[4]ソーマ専用\\c[0]"
+  name: ブラックグローブ
+  icon_index: 582
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 111
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 5
+    value: 1.5
+  params:
+  - 100
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：回避率+8%\r\n防：\\c[3]+20\\c[0] 敏：\\c[3]+25\\c[0]　\\c[4]ティア専用\\c[0]"
+  name: レッグチェーン
+  icon_index: 581
+  price: 100
+  note: <図鑑特徴:錬金>
+  id: 112
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 25
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：霊耐性+50% 闇耐性+25% HP：\\c[3]+30%\\c[0]\r\n【特殊効果】：マップにて一部オブジェクト可視化"
+  name: 真実のランタン
+  icon_index: 583
+  price: 100
+  note: <アイテムカラー:4><図鑑特徴:錬金>
+  id: 113
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 15
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.3
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 114
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：会心率+10%　回避率+5%\r\nHP：\\c[3]+100\\c[0] 防：\\c[3]+10\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: アルラウネのお香
+  icon_index: 1234
+  price: 50
+  note: <図鑑特徴:エシリア・図鑑報酬>
+  id: 115
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  params:
+  - 100
+  - 0
+  - 0
+  - 10
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ヘイト率最大\r\n防：\\c[3]+10\\c[0] 魔防：\\c[3]+10\\c[0]"
+  name: 角笛
+  icon_index: 1729
+  price: 50
+  note: <図鑑特徴:エシリア・図鑑報酬>
+  id: 116
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 10.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 117
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 118
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+0.5%\\c[0]"
+  name: グリーンコア
+  icon_index: 1275
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 119
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.005
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+5\\c[0]"
+  name: レッドコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 120
+  features: []
+  params:
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+5\\c[0]"
+  name: ブルーコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 121
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n魔攻：\\c[3]+5\\c[0]"
+  name: パープルコア
+  icon_index: 1258
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 122
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n魔防：\\c[3]+5\\c[0]"
+  name: ネイビーコア
+  icon_index: 1260
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 123
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n敏：\\c[3]+5\\c[0]"
+  name: シアンコア
+  icon_index: 1274
+  price: 50
+  note: <図鑑特徴:購入>
+  id: 124
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 125
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+8\\c[0]"
+  name: ブレードコア
+  icon_index: 1261
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 126
+  features: []
+  params:
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+8\\c[0]"
+  name: シールドコア
+  icon_index: 1257
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 127
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n魔攻：\\c[3]+8\\c[0]"
+  name: マジックコア
+  icon_index: 1258
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 128
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n魔防：\\c[3]+8\\c[0]"
+  name: バリアコア
+  icon_index: 1260
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 129
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n敏：\\c[3]+8\\c[0]"
+  name: ウィングコア
+  icon_index: 1274
+  price: 50
+  note: <図鑑特徴:錬金>
+  id: 130
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 131
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 132
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 133
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 134
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 135
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 136
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 137
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 138
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 139
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\nHP：\\c[3]+5%\\c[0] 防：\\c[3]+15\\c[0]"
+  name: メルフィアコア
+  icon_index: 1275
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:うさぽよの森>"
+  id: 140
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+15\\c[0] 敏：\\c[3]+15\\c[0]"
+  name: ヴァーグコア
+  icon_index: 1274
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:ヴァーグ海岸・穴>"
+  id: 141
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 15
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+25\\c[0]"
+  name: モンドコア
+  icon_index: 1277
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:モンド鉱山・隠し通路>"
+  id: 142
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 25
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n攻：\\c[3]+15\\c[0] 防：\\c[3]+15\\c[0]"
+  name: ディアーブルコア
+  icon_index: 1278
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:ディアーブル森林・枝道>"
+  id: 143
+  features: []
+  params:
+  - 0
+  - 0
+  - 15
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+15\\c[0] 魔防：\\c[3]+15\\c[0]"
+  name: カダーヴルコア
+  icon_index: 1260
+  price: 50
+  note: <個数非表示><図鑑特徴:カダーブル地下牢獄跡>
+  id: 144
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 15
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：特になし\r\n防：\\c[3]+15\\c[0] 魔攻：\\c[3]+15\\c[0]"
+  name: イニシエコア
+  icon_index: 1263
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:古の塔・穴>"
+  id: 145
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 15
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 146
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：ドロップ･金二倍　ガード率+100%\r\nHP：\\c[2]-200\\c[0] 攻：\\c[3]+20\\c[0] 敏：\\c[3]+50\\c[0] 運：\\c[3]+50\\c[0]"
+  name: ミミックコア
+  icon_index: 1289
+  price: 50
+  note: <図鑑特徴:ミミックからドロップ>
+  id: 147
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 3.0
+  params:
+  - -200
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 50
+  - 50
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：レベルダウン系無効\r\n防：\\c[3]+10\\c[0] 魔防：\\c[3]+10\\c[0] 攻･魔攻：\\c[3]+25%\\c[0] "
+  name: ラミアコア
+  icon_index: 1289
+  price: 50
+  note: "<個数非表示>\r\n<図鑑特徴:ラミアからドロップ>"
+  id: 148
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 45
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 66
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.25
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.25
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: "【固有効果】：全状態異常無効 MP消費1/2 TP持ち越し ドロップ三倍\r\nHP：\\c[3]+5%\\c[0] MP：\\c[3]+20\\c[0] 攻･防･魔攻･魔防･敏：\\c[3]+30\\c[0] "
+  name: スピカコア
+  icon_index: 1289
+  price: 50
+  note: "<ドロップ率+200%>\r\n<個数非表示>\r\n<図鑑特徴:スピカからドロップ>"
+  id: 149
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 8
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 26
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 28
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 29
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 35
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 36
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 27
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 40
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 41
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 42
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 43
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 44
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 45
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 66
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  params:
+  - 0
+  - 20
+  - 30
+  - 30
+  - 30
+  - 30
+  - 30
+  - 0
+  etype_id: 4
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 生地は薄いが防御力のある不思議なローブ。
+  name: 魔術師のローブ
+  icon_index: 168
+  price: 20
+  note: "<図鑑無効>\r\n<個数非表示>\r\n<図鑑特徴:セルフィ初期>"
+  id: 150
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 50
+  - 50
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: <図鑑無効>
+  id: 151
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 152
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 153
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 154
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 155
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 156
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 157
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 158
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 159
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 160
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 161
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 162
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 163
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 164
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 165
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 166
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 167
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 168
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 169
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 170
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0

@@ -1,0 +1,682 @@
+---
+- 
+- !ruby/object:RPG::Weapon
+  description: "いつも使ってる馴染みの杖。使いやすい！\r\n攻：\\c[3]+25\\c[0] 魔攻：\\c[3]+10\\c[0]【物理】"
+  name: リノンの杖
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑特徴:錬金>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 25
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: "いつも使ってる馴染みの杖を錬金術で改造！\r\n攻：\\c[3]+35\\c[0] 魔攻：\\c[3]+15\\c[0]【物理】 "
+  name: リノンの杖+1
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑特徴:錬金>\r\n<sockets: 4><所持制限:1>\r\n<個数非表示>"
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: "いつも使ってる馴染みの杖を錬金術で改造！\r\n攻：\\c[3]+50\\c[0] 魔攻：\\c[3]+20\\c[0]【物理】 "
+  name: リノンの杖+2
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑特徴:錬金>\r\n<sockets: 4><所持制限:1>\r\n<個数非表示>"
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: "いつも使ってる馴染みの杖を錬金術で改造！オメガには特に意味はない。\r\n攻：\\c[3]+70\\c[0] 魔攻：\\c[3]+30\\c[0]【物理】 "
+  name: リノンの杖Ω
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑特徴:錬金>\r\n<sockets: 4><所持制限:1>\r\n<個数非表示>"
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 70
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "自動回転する刃がついた武器。魔導エンジンでぐるぐるまわる\r\n攻：\\c[3]+25\\c[0] 【物理】"
+  name: チェーンソー
+  icon_index: 1653
+  price: 100
+  animation_id: 218
+  note: "<図鑑特徴:初期>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 25
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 12
+- !ruby/object:RPG::Weapon
+  description: "自動回転する刃がついた武器。魔導エンジンでぐるぐるまわる\r\n攻：\\c[3]+40\\c[0] 防：\\c[3]+10\\c[0] 【物理】"
+  name: チェーンソー改
+  icon_index: 1653
+  price: 100
+  animation_id: 218
+  note: "<図鑑特徴:錬金>\r\n<所持制限:1>\r\n<個数非表示>"
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 40
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 12
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "シャーリィが自分で使いやすく錬金術で改造した弓。元はドリュ原木らしい。\r\n攻：\\c[3]+25\\c[0] 【突・飛】"
+  name: アルテミス
+  icon_index: 427
+  price: 10
+  animation_id: 13
+  note: "<図鑑特徴:初期>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 14
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 25
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: "シャーリィが自分で使いやすく錬金術で改造した弓。元はドリュ原木らしい。\r\n攻：\\c[3]+50\\c[0] 魔防：\\c[3]+10\\c[0]【突・飛】"
+  name: アルテミス･ドゥ
+  icon_index: 427
+  price: 10
+  animation_id: 13
+  note: "<図鑑特徴:錬金>\r\n<所持制限:1>\r\n<個数非表示>"
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 13
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 14
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "軽く固い素材で作られているが素材は不明。\r\n攻：\\c[3]+20\\c[0] 敏：\\c[3]+10\\c[0] 【斬・飛】"
+  name: マインゴーシュ
+  icon_index: 1616
+  price: 10
+  animation_id: 241
+  note: "<図鑑特徴:初期>\r\n<所持制限:1>\r\n<個数非表示>"
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 14
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 0
+  wtype_id: 13
+- !ruby/object:RPG::Weapon
+  description: "軽く固い素材で作られているが素材は不明。\r\n攻：\\c[3]+40\\c[0] 敏：\\c[3]+15\\c[0] 【斬・飛】"
+  name: アサシンダガー
+  icon_index: 1616
+  price: 10
+  animation_id: 241
+  note: "<図鑑特徴:錬金>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 14
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  etype_id: 0
+  wtype_id: 13
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "ソーマが自分に合わせて特注で作ってもらった剣。\r\n攻：\\c[3]+30\\c[0]【斬】"
+  name: シュザーク
+  icon_index: 389
+  price: 10
+  animation_id: 7
+  note: "<図鑑特徴:初期>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: "ソーマが自分に合わせて特注で作ってもらった剣。\r\n攻：\\c[3]+60\\c[0]【斬】"
+  name: シュザーク･ツヴァイ
+  icon_index: 389
+  price: 10
+  animation_id: 7
+  note: "<図鑑特徴:錬金>\r\n<sockets: 2><所持制限:1>\r\n<個数非表示>"
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 12
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 60
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "いつも使ってる馴染みの杖。\r\n…のはずが転んで折ってしまった。"
+  name: 折れたリノンの杖
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑特徴:初期>\r\n<個数非表示>\r\n<図鑑無効>"
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 夫にプレゼントされ、ずっと使っている杖。
+  name: 魔術師の杖
+  icon_index: 1493
+  price: 10
+  animation_id: 188
+  note: "<図鑑無効>\r\n<個数非表示>"
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0

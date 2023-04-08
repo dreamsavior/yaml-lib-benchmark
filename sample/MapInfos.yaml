@@ -1,0 +1,1345 @@
+---
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 578
+  name: メルフィア
+  expanded: true
+  order: 1
+  scroll_y: 373
+  parent_id: 0
+8: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 階段
+  expanded: true
+  order: 2
+  scroll_y: 208
+  parent_id: 2
+18: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家
+  expanded: true
+  order: 123
+  scroll_y: 352
+  parent_id: 26
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家
+  expanded: true
+  order: 124
+  scroll_y: 352
+  parent_id: 18
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 井戸の中
+  expanded: true
+  order: 4
+  scroll_y: 320
+  parent_id: 2
+10: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スタートマップ
+  expanded: false
+  order: 3
+  scroll_y: 288
+  parent_id: 8
+37: !ruby/object:RPG::MapInfo
+  scroll_x: 911
+  name: ワールドマップ
+  expanded: true
+  order: 86
+  scroll_y: 565
+  parent_id: 0
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 宿屋
+  expanded: true
+  order: 69
+  scroll_y: 368
+  parent_id: 2
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 宿屋-2F
+  expanded: false
+  order: 70
+  scroll_y: 368
+  parent_id: 1
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器屋
+  expanded: true
+  order: 71
+  scroll_y: 288
+  parent_id: 1
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家
+  expanded: true
+  order: 7
+  scroll_y: 352
+  parent_id: 2
+7: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家-2F
+  expanded: false
+  order: 8
+  scroll_y: 352
+  parent_id: 6
+9: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:ラズィーズ
+  expanded: true
+  order: 31
+  scroll_y: 352
+  parent_id: 2
+11: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 近場の森
+  expanded: true
+  order: 51
+  scroll_y: 320
+  parent_id: 2
+12: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 近場の森
+  expanded: false
+  order: 52
+  scroll_y: 320
+  parent_id: 11
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 民家
+  expanded: false
+  order: 54
+  scroll_y: 288
+  parent_id: 2
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: メルフィアの森
+  expanded: true
+  order: 140
+  scroll_y: 448
+  parent_id: 37
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: メルフィアの森･北東
+  expanded: false
+  order: 141
+  scroll_y: 448
+  parent_id: 14
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: メルフィアの森･東
+  expanded: true
+  order: 142
+  scroll_y: 448
+  parent_id: 14
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ヴァーグ海岸
+  expanded: false
+  order: 138
+  scroll_y: 320
+  parent_id: 21
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ヴァーグ海岸
+  expanded: true
+  order: 137
+  scroll_y: 320
+  parent_id: 37
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ヴァーグ海岸
+  expanded: false
+  order: 139
+  scroll_y: 304
+  parent_id: 21
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 大橋
+  expanded: false
+  order: 87
+  scroll_y: 336
+  parent_id: 37
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 752
+  name: モンド鉱山
+  expanded: true
+  order: 88
+  scroll_y: 490
+  parent_id: 37
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 751
+  name: モンド鉱山
+  expanded: false
+  order: 89
+  scroll_y: 1037
+  parent_id: 23
+26: !ruby/object:RPG::MapInfo
+  scroll_x: 672
+  name: グルンタール
+  expanded: true
+  order: 90
+  scroll_y: 626
+  parent_id: 37
+27: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋
+  expanded: true
+  order: 91
+  scroll_y: 288
+  parent_id: 26
+28: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家
+  expanded: true
+  order: 55
+  scroll_y: 368
+  parent_id: 2
+29: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 領主の家
+  expanded: true
+  order: 102
+  scroll_y: 288
+  parent_id: 26
+30: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ディアーブル森林
+  expanded: true
+  order: 147
+  scroll_y: 448
+  parent_id: 37
+31: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ディアーブル森林
+  expanded: true
+  order: 152
+  scroll_y: 448
+  parent_id: 30
+32: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ディアーブル森林
+  expanded: false
+  order: 155
+  scroll_y: 448
+  parent_id: 30
+33: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ディアーブル森林･枝道
+  expanded: true
+  order: 148
+  scroll_y: 448
+  parent_id: 30
+34: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: ディアーブル森林･最深部
+  expanded: false
+  order: 156
+  scroll_y: 448
+  parent_id: 30
+35: !ruby/object:RPG::MapInfo
+  scroll_x: 608
+  name: ディアーブル洞窟
+  expanded: true
+  order: 153
+  scroll_y: 1046
+  parent_id: 31
+36: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カダーヴル墓地
+  expanded: true
+  order: 82
+  scroll_y: 400
+  parent_id: 192
+38: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: メルフィアの滝
+  expanded: true
+  order: 145
+  scroll_y: 448
+  parent_id: 14
+39: !ruby/object:RPG::MapInfo
+  scroll_x: 890
+  name: ディアーブル樹海
+  expanded: true
+  order: 149
+  scroll_y: 1118
+  parent_id: 33
+40: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ディアーブル樹海
+  expanded: false
+  order: 150
+  scroll_y: 320
+  parent_id: 39
+41: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店
+  expanded: true
+  order: 105
+  scroll_y: 320
+  parent_id: 26
+42: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの家
+  expanded: false
+  order: 106
+  scroll_y: 320
+  parent_id: 41
+43: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ディアーブル樹海･花畑
+  expanded: false
+  order: 151
+  scroll_y: 480
+  parent_id: 39
+44: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: カダーヴル地下牢獄跡
+  expanded: true
+  order: 83
+  scroll_y: 416
+  parent_id: 36
+45: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: カダーヴル地下牢獄跡
+  expanded: true
+  order: 84
+  scroll_y: 416
+  parent_id: 44
+46: !ruby/object:RPG::MapInfo
+  scroll_x: 752
+  name: カダーヴル地下鉱山
+  expanded: false
+  order: 85
+  scroll_y: 490
+  parent_id: 45
+47: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: メルフィアの森･南
+  expanded: true
+  order: 143
+  scroll_y: 448
+  parent_id: 16
+48: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: メルフィア洞窟
+  expanded: false
+  order: 144
+  scroll_y: 490
+  parent_id: 47
+50: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: 古の塔
+  expanded: true
+  order: 157
+  scroll_y: 320
+  parent_id: 37
+49: !ruby/object:RPG::MapInfo
+  scroll_x: 464
+  name: 古の塔
+  expanded: true
+  order: 158
+  scroll_y: 480
+  parent_id: 50
+51: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･東
+  expanded: false
+  order: 159
+  scroll_y: 416
+  parent_id: 49
+52: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･西
+  expanded: true
+  order: 160
+  scroll_y: 416
+  parent_id: 49
+53: !ruby/object:RPG::MapInfo
+  scroll_x: 464
+  name: 古の塔
+  expanded: false
+  order: 164
+  scroll_y: 480
+  parent_id: 49
+55: !ruby/object:RPG::MapInfo
+  scroll_x: 464
+  name: 古の塔-2F
+  expanded: true
+  order: 165
+  scroll_y: 480
+  parent_id: 49
+56: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･東-2F
+  expanded: false
+  order: 166
+  scroll_y: 416
+  parent_id: 55
+57: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･西-2F
+  expanded: true
+  order: 167
+  scroll_y: 416
+  parent_id: 55
+58: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･西-2F-B
+  expanded: false
+  order: 168
+  scroll_y: 416
+  parent_id: 57
+59: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･地下
+  expanded: true
+  order: 161
+  scroll_y: 416
+  parent_id: 52
+60: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･地下
+  expanded: true
+  order: 162
+  scroll_y: 416
+  parent_id: 59
+61: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: ホテル・グルンタール
+  expanded: true
+  order: 116
+  scroll_y: 320
+  parent_id: 26
+62: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: ホテル・グルンタール
+  expanded: true
+  order: 117
+  scroll_y: 320
+  parent_id: 61
+63: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ホテル・グルンタール
+  expanded: false
+  order: 118
+  scroll_y: 288
+  parent_id: 62
+64: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ホテル・グルンタール
+  expanded: false
+  order: 119
+  scroll_y: 288
+  parent_id: 62
+65: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: ホテル・グルンタール
+  expanded: true
+  order: 120
+  scroll_y: 320
+  parent_id: 61
+66: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ホテル・グルンタール
+  expanded: false
+  order: 121
+  scroll_y: 288
+  parent_id: 65
+67: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ホテル・グルンタール
+  expanded: false
+  order: 122
+  scroll_y: 288
+  parent_id: 65
+68: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･イベント用
+  expanded: true
+  order: 169
+  scroll_y: 432
+  parent_id: 50
+69: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 領主の家・牢屋
+  expanded: false
+  order: 103
+  scroll_y: 288
+  parent_id: 29
+70: !ruby/object:RPG::MapInfo
+  scroll_x: 560
+  name: イムブルア渓谷
+  expanded: true
+  order: 174
+  scroll_y: 2382
+  parent_id: 37
+71: !ruby/object:RPG::MapInfo
+  scroll_x: 624
+  name: 滝：イベント用
+  expanded: false
+  order: 146
+  scroll_y: 448
+  parent_id: 38
+72: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: テントの中
+  expanded: true
+  order: 175
+  scroll_y: 240
+  parent_id: 70
+73: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレの部屋
+  expanded: true
+  order: 92
+  scroll_y: 288
+  parent_id: 27
+74: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店EV1
+  expanded: false
+  order: 108
+  scroll_y: 320
+  parent_id: 76
+75: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店EV2
+  expanded: false
+  order: 109
+  scroll_y: 320
+  parent_id: 76
+76: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント系
+  expanded: true
+  order: 107
+  scroll_y: 208
+  parent_id: 41
+77: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋
+  expanded: true
+  order: 72
+  scroll_y: 288
+  parent_id: 5
+78: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店EV3
+  expanded: false
+  order: 110
+  scroll_y: 320
+  parent_id: 76
+79: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 9
+  scroll_y: 208
+  parent_id: 6
+80: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV1
+  expanded: false
+  order: 10
+  scroll_y: 352
+  parent_id: 79
+81: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 126
+  scroll_y: 208
+  parent_id: 18
+82: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家EV1
+  expanded: false
+  order: 128
+  scroll_y: 352
+  parent_id: 83
+83: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家EV1
+  expanded: true
+  order: 127
+  scroll_y: 352
+  parent_id: 81
+84: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店:ソーマ用
+  expanded: false
+  order: 114
+  scroll_y: 320
+  parent_id: 76
+85: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV2
+  expanded: false
+  order: 11
+  scroll_y: 352
+  parent_id: 79
+86: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 店EV4：依頼あり･ティア
+  expanded: false
+  order: 111
+  scroll_y: 320
+  parent_id: 76
+87: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家EV2
+  expanded: false
+  order: 129
+  scroll_y: 352
+  parent_id: 81
+88: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV3
+  expanded: false
+  order: 12
+  scroll_y: 352
+  parent_id: 79
+89: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 酒場
+  expanded: true
+  order: 32
+  scroll_y: 352
+  parent_id: 9
+90: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 73
+  scroll_y: 208
+  parent_id: 77
+91: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋：ルフィア
+  expanded: false
+  order: 74
+  scroll_y: 288
+  parent_id: 90
+92: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋：ソーマ
+  expanded: false
+  order: 75
+  scroll_y: 288
+  parent_id: 90
+93: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 176
+  scroll_y: 208
+  parent_id: 72
+94: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: テントの中：ソーマ
+  expanded: false
+  order: 177
+  scroll_y: 240
+  parent_id: 93
+95: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋：ティア
+  expanded: false
+  order: 76
+  scroll_y: 288
+  parent_id: 90
+96: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店EV5
+  expanded: true
+  order: 112
+  scroll_y: 320
+  parent_id: 76
+97: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 37
+  scroll_y: 208
+  parent_id: 9
+98: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:ルフィアEV1
+  expanded: false
+  order: 38
+  scroll_y: 352
+  parent_id: 97
+99: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:ティアEV2
+  expanded: false
+  order: 39
+  scroll_y: 352
+  parent_id: 97
+100: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店EV6
+  expanded: false
+  order: 113
+  scroll_y: 320
+  parent_id: 96
+101: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV4
+  expanded: false
+  order: 13
+  scroll_y: 352
+  parent_id: 79
+102: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 93
+  scroll_y: 208
+  parent_id: 73
+103: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EV1
+  expanded: false
+  order: 94
+  scroll_y: 288
+  parent_id: 102
+104: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シナリオ13
+  expanded: false
+  order: 40
+  scroll_y: 352
+  parent_id: 97
+105: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 過去話・EV
+  expanded: true
+  order: 170
+  scroll_y: 400
+  parent_id: 68
+106: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: '1'
+  expanded: false
+  order: 171
+  scroll_y: 352
+  parent_id: 105
+107: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家
+  expanded: false
+  order: 125
+  scroll_y: 352
+  parent_id: 3
+108: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: '2'
+  expanded: false
+  order: 172
+  scroll_y: 352
+  parent_id: 105
+109: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: イムブルア洞穴
+  expanded: true
+  order: 179
+  scroll_y: 490
+  parent_id: 70
+110: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: イムブルア洞穴
+  expanded: false
+  order: 180
+  scroll_y: 598
+  parent_id: 109
+111: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: イムブルア洞穴･最深部
+  expanded: false
+  order: 181
+  scroll_y: 560
+  parent_id: 109
+113: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家-ラスト
+  expanded: false
+  order: 14
+  scroll_y: 352
+  parent_id: 79
+114: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ばばあエリア
+  expanded: false
+  order: 130
+  scroll_y: 352
+  parent_id: 81
+115: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: イベント用
+  expanded: false
+  order: 136
+  scroll_y: 256
+  parent_id: 26
+116: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: スピカ用
+  expanded: true
+  order: 182
+  scroll_y: 320
+  parent_id: 37
+117: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: イベント用
+  expanded: true
+  order: 56
+  scroll_y: 208
+  parent_id: 28
+118: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV1
+  expanded: false
+  order: 57
+  scroll_y: 368
+  parent_id: 117
+119: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：ユウナ用
+  expanded: false
+  order: 66
+  scroll_y: 368
+  parent_id: 125
+120: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シャーリィEV3
+  expanded: true
+  order: 41
+  scroll_y: 352
+  parent_id: 97
+121: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EVシャーリィ
+  expanded: false
+  order: 95
+  scroll_y: 288
+  parent_id: 102
+122: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シャーリィEV4
+  expanded: false
+  order: 42
+  scroll_y: 352
+  parent_id: 120
+123: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: テントの中：＠ティア
+  expanded: false
+  order: 178
+  scroll_y: 240
+  parent_id: 93
+124: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV2：シャ
+  expanded: false
+  order: 58
+  scroll_y: 368
+  parent_id: 117
+125: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: シナリオ用
+  expanded: true
+  order: 65
+  scroll_y: 208
+  parent_id: 28
+126: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV3：シャ
+  expanded: false
+  order: 59
+  scroll_y: 368
+  parent_id: 117
+127: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シャーリィEV5
+  expanded: false
+  order: 43
+  scroll_y: 352
+  parent_id: 120
+128: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV5：シャ
+  expanded: true
+  order: 15
+  scroll_y: 352
+  parent_id: 79
+129: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV6：ティア
+  expanded: false
+  order: 16
+  scroll_y: 352
+  parent_id: 128
+130: !ruby/object:RPG::MapInfo
+  scroll_x: 528
+  name: リノンの家EV7：ティア
+  expanded: false
+  order: 17
+  scroll_y: 352
+  parent_id: 128
+131: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV4：ティ
+  expanded: false
+  order: 60
+  scroll_y: 368
+  parent_id: 117
+132: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:ルフィアEV6
+  expanded: false
+  order: 46
+  scroll_y: 352
+  parent_id: 97
+133: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:ソーマEV7
+  expanded: false
+  order: 47
+  scroll_y: 352
+  parent_id: 97
+134: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: うさぽよの森
+  expanded: false
+  order: 53
+  scroll_y: 320
+  parent_id: 11
+136: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 酒場：準備中
+  expanded: false
+  order: 33
+  scroll_y: 352
+  parent_id: 89
+137: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:開店準備
+  expanded: false
+  order: 48
+  scroll_y: 352
+  parent_id: 97
+138: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EVソーマ
+  expanded: false
+  order: 96
+  scroll_y: 288
+  parent_id: 102
+139: !ruby/object:RPG::MapInfo
+  scroll_x: 512
+  name: シナリオ：ティア6-7
+  expanded: false
+  order: 27
+  scroll_y: 352
+  parent_id: 164
+140: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV8：ティア
+  expanded: false
+  order: 18
+  scroll_y: 352
+  parent_id: 128
+141: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シャーリィEV6
+  expanded: false
+  order: 44
+  scroll_y: 352
+  parent_id: 120
+142: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋EV1
+  expanded: false
+  order: 77
+  scroll_y: 288
+  parent_id: 90
+143: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV9
+  expanded: false
+  order: 19
+  scroll_y: 352
+  parent_id: 79
+144: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV10
+  expanded: false
+  order: 20
+  scroll_y: 352
+  parent_id: 79
+145: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EV2
+  expanded: false
+  order: 97
+  scroll_y: 288
+  parent_id: 102
+146: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋EVシナリオ
+  expanded: false
+  order: 81
+  scroll_y: 288
+  parent_id: 192
+147: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV11
+  expanded: false
+  order: 21
+  scroll_y: 352
+  parent_id: 79
+148: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 酒場：EV1・ル
+  expanded: false
+  order: 34
+  scroll_y: 352
+  parent_id: 89
+149: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV5：シャ
+  expanded: false
+  order: 61
+  scroll_y: 368
+  parent_id: 117
+151: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:EV8
+  expanded: false
+  order: 49
+  scroll_y: 352
+  parent_id: 97
+152: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･イベント用2
+  expanded: false
+  order: 173
+  scroll_y: 416
+  parent_id: 68
+153: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV6
+  expanded: false
+  order: 62
+  scroll_y: 368
+  parent_id: 117
+154: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家：シナリオ19-20
+  expanded: false
+  order: 30
+  scroll_y: 352
+  parent_id: 164
+155: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：シナリオ21
+  expanded: false
+  order: 68
+  scroll_y: 368
+  parent_id: 125
+156: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家：シナリオ16-17
+  expanded: false
+  order: 28
+  scroll_y: 352
+  parent_id: 164
+157: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家：シナリオ17-18
+  expanded: false
+  order: 29
+  scroll_y: 352
+  parent_id: 164
+158: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家EV18
+  expanded: false
+  order: 22
+  scroll_y: 352
+  parent_id: 79
+159: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家＠シャ
+  expanded: false
+  order: 23
+  scroll_y: 352
+  parent_id: 79
+160: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ソーマの店＠ソーマ
+  expanded: false
+  order: 115
+  scroll_y: 320
+  parent_id: 76
+161: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 古の塔･地下：後半
+  expanded: false
+  order: 163
+  scroll_y: 416
+  parent_id: 60
+162: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家＠エシリア
+  expanded: false
+  order: 67
+  scroll_y: 368
+  parent_id: 125
+163: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ＠ユウナ
+  expanded: false
+  order: 50
+  scroll_y: 352
+  parent_id: 97
+164: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: シナリオ用
+  expanded: true
+  order: 26
+  scroll_y: 208
+  parent_id: 6
+165: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: シナリオ用
+  expanded: true
+  order: 134
+  scroll_y: 208
+  parent_id: 18
+166: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家：6-7
+  expanded: false
+  order: 135
+  scroll_y: 352
+  parent_id: 165
+167: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 酒場：EV2
+  expanded: false
+  order: 35
+  scroll_y: 352
+  parent_id: 89
+168: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家：武器イベ
+  expanded: false
+  order: 24
+  scroll_y: 352
+  parent_id: 79
+169: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：EV7
+  expanded: false
+  order: 63
+  scroll_y: 368
+  parent_id: 117
+170: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: カフェ:シャーリィEV7
+  expanded: false
+  order: 45
+  scroll_y: 352
+  parent_id: 120
+171: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋EV2
+  expanded: true
+  order: 78
+  scroll_y: 288
+  parent_id: 90
+172: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 武器＆薬屋EV3
+  expanded: false
+  order: 79
+  scroll_y: 288
+  parent_id: 171
+173: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EV3
+  expanded: false
+  order: 98
+  scroll_y: 288
+  parent_id: 102
+174: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EV5
+  expanded: false
+  order: 100
+  scroll_y: 288
+  parent_id: 102
+175: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EV4
+  expanded: false
+  order: 99
+  scroll_y: 288
+  parent_id: 102
+176: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: 酒場：EV3
+  expanded: false
+  order: 36
+  scroll_y: 352
+  parent_id: 89
+177: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: スフレのお菓子屋:EVシャ
+  expanded: false
+  order: 101
+  scroll_y: 288
+  parent_id: 102
+178: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ディアーブル洞窟
+  expanded: false
+  order: 154
+  scroll_y: 490
+  parent_id: 35
+179: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 井戸の洞穴
+  expanded: true
+  order: 5
+  scroll_y: 320
+  parent_id: 20
+180: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 井戸の洞穴
+  expanded: false
+  order: 6
+  scroll_y: 480
+  parent_id: 179
+25: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ？？？
+  expanded: true
+  order: 183
+  scroll_y: 480
+  parent_id: 116
+112: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: リノンの家：水着イベ
+  expanded: false
+  order: 25
+  scroll_y: 352
+  parent_id: 79
+181: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 穴の中↓
+  expanded: true
+  order: 186
+  scroll_y: 208
+  parent_id: 0
+182: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：グルン
+  expanded: false
+  order: 187
+  scroll_y: 320
+  parent_id: 181
+183: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：ヴァーグ
+  expanded: false
+  order: 188
+  scroll_y: 320
+  parent_id: 181
+184: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：古
+  expanded: false
+  order: 189
+  scroll_y: 320
+  parent_id: 181
+185: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：メルフィア森
+  expanded: false
+  order: 190
+  scroll_y: 320
+  parent_id: 181
+186: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：イムブルア谷
+  expanded: false
+  order: 191
+  scroll_y: 320
+  parent_id: 181
+187: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 領主の家・倉庫
+  expanded: false
+  order: 104
+  scroll_y: 288
+  parent_id: 29
+188: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: 穴の中：ディ洞窟
+  expanded: false
+  order: 192
+  scroll_y: 320
+  parent_id: 181
+189: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家：カバン1
+  expanded: true
+  order: 131
+  scroll_y: 352
+  parent_id: 81
+190: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家：カバン2
+  expanded: false
+  order: 132
+  scroll_y: 352
+  parent_id: 189
+54: !ruby/object:RPG::MapInfo
+  scroll_x: 640
+  name: エシリアの家：うさ
+  expanded: false
+  order: 64
+  scroll_y: 368
+  parent_id: 117
+135: !ruby/object:RPG::MapInfo
+  scroll_x: 847
+  name: 謎の異空間
+  expanded: true
+  order: 184
+  scroll_y: 1118
+  parent_id: 25
+150: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 謎の異空間入り口
+  expanded: false
+  order: 185
+  scroll_y: 320
+  parent_id: 135
+191: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: ルフィアの家：鉱石
+  expanded: false
+  order: 133
+  scroll_y: 352
+  parent_id: 189
+192: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: E：お婆さん★★★★
+  expanded: true
+  order: 80
+  scroll_y: 208
+  parent_id: 2
