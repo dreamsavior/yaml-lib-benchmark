@@ -4,10 +4,42 @@ const yamlFile = "./sample/Map002.yaml";
 var yamlFileContent 
 var yamlData;
 
+
+var countNode = function(obj) {
+	var node = 0;
+	function traverse(jsonObj) {
+		if( jsonObj !== null && typeof jsonObj == "object" ) {
+			Object.entries(jsonObj).forEach(([key, value]) => {
+				// key is either an array index or object key
+				node++;
+				traverse(value);
+			});
+		}
+		else {
+			// jsonObj is a number or string
+			node++;
+		}
+	}
+	
+	traverse(obj);
+	return node;
+}
+
 var yamlInfo = async function() {
+    yamlFileContent =  (await fs.promises.readFile(yamlFile)).toString();
+
     var yamlPack = (await fs.promises.readFile("./node_modules/yaml/package.json")).toString();
-    var yamlJSON = JSON.parse(yamlPack);
-    console.log("Testing YAML version "+yamlJSON.version+"\n");
+    var package = JSON.parse(yamlPack);
+    console.log("Testing YAML version "+package.version);
+
+    var stats = fs.statSync(yamlFile);
+    console.log("Working on file : ", yamlFile);
+    console.log("File size : ", stats.size, "byte");
+
+    yamlData = YAML.parseDocument(yamlFileContent);
+    var yamlJSON = yamlData.toJSON();
+    console.log("Number of node : ", countNode(yamlJSON));
+
 }
 
 var benchmark = async function(process, ...args) {
@@ -49,21 +81,28 @@ var runSetIn = function(times=10000) {
     }
 }
 
-var runToString = function(times=1000) {
-    console.log("Test 4: runToString() x ", times);
+var runToString = function(times=200) {
+    console.log("Test 4: run ToString() x ", times);
     for (var i=0; i<times; i++) {
         yamlData.toString();
     }
 }
 
+var runToJSON = function(times=200) {
+    console.log("Test 5: run toJSON() x ", times);
+    for (var i=0; i<times; i++) {
+        yamlData.toJSON();
+    }
+}
+
 void async function() {
     await yamlInfo();
-    yamlFileContent =  (await fs.promises.readFile(yamlFile)).toString();
     var totalExecution = 0;
     totalExecution += await benchmark(runParseDocument, 200);
     totalExecution += await benchmark(runGetIn, 5000);
     totalExecution += await benchmark(runSetIn, 5000);
-    totalExecution += await benchmark(runToString, 1000);
+    totalExecution += await benchmark(runToString, 200);
+    totalExecution += await benchmark(runToJSON, 200);
 
     console.log("Total execution:", totalExecution, "ms");
 }()

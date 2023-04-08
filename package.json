@@ -11,6 +11,6 @@
   "author": "Dreamsavior",
   "license": "MIT",
   "dependencies": {
-    "yaml": "^2.2.1"
+    "yaml": "^2.0.0-5"
   }
 }
